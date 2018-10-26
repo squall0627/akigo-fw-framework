@@ -2,50 +2,30 @@
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>akigo-fw-framework</artifactId>
+        <groupId>com.akigo</groupId>
+        <version>1.0.0</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.akigo</groupId>
-    <artifactId>akigo-fw-framework</artifactId>
-    <version>1.0.0</version>
-    <modules>
-        <module>akigo-fw-core</module>
-        <module>akigo-fw-dao</module>
-    </modules>
-    <packaging>pom</packaging>
+    <artifactId>akigo-fw-dao</artifactId>
 
-    <name>akigo-fw-framework</name>
+    <name>akigo-fw-dao</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <framework.version>1.0.0</framework.version>
-    </properties>
-
     <dependencies>
         <dependency>
-            <groupId>javax</groupId>
-            <artifactId>javaee-api</artifactId>
-            <version>7.0</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>1.7.25</version>
+            <groupId>com.akigo</groupId>
+            <artifactId>akigo-fw-core</artifactId>
+            <version>${framework.version}</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.11</version>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.2</version>
         </dependency>
     </dependencies>
 
