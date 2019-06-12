@@ -10,6 +10,7 @@
     <modules>
         <module>akigo-fw-core</module>
         <module>akigo-fw-dao</module>
+        <module>akigo-fw-test</module>
     </modules>
     <packaging>pom</packaging>
 

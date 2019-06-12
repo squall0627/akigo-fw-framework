@@ -8,6 +8,11 @@
  */
 package com.akigo.core.util;
 
+import java.lang.annotation.Annotation;
+import java.lang.reflect.Field;
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * JAVAクラスへの汎用機能<<br>
  * <br>
@@ -80,6 +85,53 @@ public class ClassUtils {
         try {
             return clazz.newInstance();
         } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public static Field getField(String fieldName, Class<?> targetClass) {
+        try {
+            return targetClass.getDeclaredField(fieldName);
+        } catch (Exception e) {
+            //Fix:searching parent Class
+            Class<?> superClass = targetClass.getSuperclass();
+            if (superClass == null || superClass.equals(Object.class)) {
+                return null;
+            }
+            return getField(fieldName, superClass);
+        }
+    }
+
+    public static Set<Field> getFields(Class<? extends Annotation> anot, Class<?> targetClass) {
+        Set<Field> fields = new HashSet<Field>();
+        if (targetClass.equals(Object.class)) {
+            return fields;
+        }
+        for (Field f : targetClass.getDeclaredFields()) {
+            if (f.isAnnotationPresent(anot)) {
+                fields.add(f);
+            }
+        }
+        fields.addAll(getFields(anot, targetClass.getSuperclass()));
+        return fields;
+    }
+
+    public static Object get(Field f, Object target) {
+        try {
+            return f.get(target);
+        } catch (IllegalArgumentException e) {
+            throw new RuntimeException(e);
+        } catch (IllegalAccessException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public static void set(Field f, Object target, Object value) {
+        try {
+            f.set(target, value);
+        } catch (IllegalArgumentException e) {
+            throw new RuntimeException(e);
+        } catch (IllegalAccessException e) {
             throw new RuntimeException(e);
         }
     }
