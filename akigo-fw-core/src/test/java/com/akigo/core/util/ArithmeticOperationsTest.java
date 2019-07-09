@@ -12,7 +12,7 @@ public class ArithmeticOperationsTest {
     public void evalTest01() {
         ArithmeticOperations calculator = new ArithmeticOperations();
         BigDecimal result = calculator.eval(
-                "(3 + 4 * 2.4 / 2.123 + ( (-1 - (5)) * (2 + 100) + 1.12345 / 2.22 ))");
+                "(3 + 4 * 2.4 / 2.123 + ( (-1 --2- (5)) * (2 + -100) + 1.12345 / 2.22 )--1)");
     }
 
     @Test
@@ -34,7 +34,7 @@ public class ArithmeticOperationsTest {
         ArithmeticOperations calculator = new ArithmeticOperations();
         try {
             BigDecimal result = calculator.eval(
-                    "(3 +- 4 * 2.4 / 2.123 + ( (-1 - (5)) * (2 + 100) + 1.12345 / 2.22 ))");
+                    "(3 + 4 * 2.4 / 2.123 + ( -(-1 - (5)) * (2 + 100) + 1.12345 / 2.22 ))");
         } catch (SystemException e) {
             System.out.println(e);
             Assert.assertTrue(true);

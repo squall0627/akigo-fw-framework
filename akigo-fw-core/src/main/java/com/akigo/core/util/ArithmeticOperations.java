@@ -30,7 +30,7 @@ public class ArithmeticOperations {
 
             BigDecimal result = o1.add(o2);
 
-            LOGGER.debug(o1.toPlainString() + " + " + o2.toPlainString() + " = " + result);
+            LOGGER.debug("{} + {} = {}", o1.toPlainString(), o2.toPlainString(), result);
 
             numStack.push(result);
         }),
@@ -43,7 +43,7 @@ public class ArithmeticOperations {
 
             BigDecimal result = o1.subtract(o2);
 
-            LOGGER.debug(o1.toPlainString() + " - " + o2.toPlainString() + " = " + result);
+            LOGGER.debug("{} - {} = {}", o1.toPlainString(), o2.toPlainString(), result);
 
             numStack.push(result);
         }),
@@ -56,7 +56,7 @@ public class ArithmeticOperations {
 
             BigDecimal result = o1.multiply(o2);
 
-            LOGGER.debug(o1.toPlainString() + " * " + o2.toPlainString() + " = " + result);
+            LOGGER.debug("{} * {} = {}", o1.toPlainString(), o2.toPlainString(), result);
 
             numStack.push(result);
         }),
@@ -71,8 +71,7 @@ public class ArithmeticOperations {
 
             BigDecimal result = o1.divide(o2, scale, RoundingMode.HALF_DOWN);
 
-            LOGGER.debug(
-                    o1.toPlainString() + " / " + o2.toPlainString() + " = " + result + " scale:" + scale);
+            LOGGER.debug("{} / {} = {}  scale: {}", o1.toPlainString(), o2.toPlainString(), result, scale);
 
             numStack.push(result);
         }),
@@ -103,8 +102,8 @@ public class ArithmeticOperations {
                     .findFirst();
         }
 
-        private Operator(String operator, int priority,
-                         CalcStrategy calcFunc) {
+        Operator(String operator, int priority,
+                 CalcStrategy calcFunc) {
             this.operator = operator;
             this.priority = priority;
             this.calcFunc = calcFunc;
@@ -120,61 +119,10 @@ public class ArithmeticOperations {
     }
 
     /**
-     * 計算式文字列解析処理<br>
-     *
-     * <pre>
-     * 例：
-     * 1 + 2 * ( -3 + 4 )の解析結果は、
-     *
-     * [1, +, 2, *, (, -3, +, 4, )]
-     * </pre>
-     *
-     * @param calcExpression 計算式文字列
-     * @return 解析後のすべて計算式元素のリスト
-     */
-    public List<String> parseCalcExpression(String calcExpression) {
-
-        LOGGER.debug("before parse:{}", calcExpression);
-
-        List<String> calcElements = new ArrayList<>();
-        List<String> opList = Arrays.stream(Operator.values()).map(Operator::getOperator).collect(
-                Collectors.toList());
-
-        String parseStr = calcExpression.trim();
-        int idxPointer = 0;
-        for (int i = 0; i < parseStr.length(); i++) {
-            String tempStr = String.valueOf(parseStr.charAt(i));
-            if (opList.contains(tempStr)) {
-                if (!Operator.SUB.getOperator().equals(tempStr) ||
-                        (Operator.SUB.getOperator().equals(tempStr) &&
-                                i < (parseStr.length() - 1) &&
-                                " ".equals(String.valueOf(parseStr.charAt(i + 1))))) {
-                    // "-"の直後は半角スペースのある場合は、引算と看做されて、半角スペースのない場合は、マイナス数字と看做される
-                    if (i != 0) {
-                        String subStr = parseStr.substring(idxPointer, i).trim();
-                        if (!subStr.isEmpty()) {
-                            calcElements.add(subStr);
-                        }
-                    }
-                    calcElements.add(tempStr);
-                    idxPointer = i + 1;
-                }
-            }
-        }
-        if (idxPointer < parseStr.length()) {
-            calcElements.add(parseStr.substring(idxPointer, parseStr.length()).trim());
-        }
-
-        LOGGER.debug("after parse:{}", calcElements);
-
-        return calcElements;
-    }
-
-    /**
      * 計算式実行処理<br>
      *
-     * @param calcExpression
-     * @return 計算式実行結果
+     * @param calcExpression 計算式文字列
+     * @return 計算式実行結果{@link BigDecimal}
      */
     public BigDecimal eval(String calcExpression) {
         // 計算式文字列解析
@@ -215,5 +163,80 @@ public class ArithmeticOperations {
         LOGGER.debug("eval result:{}", result.toPlainString());
 
         return result;
+    }
+
+    /**
+     * 計算式文字列解析処理<br>
+     *
+     * <pre>
+     * 例：
+     * 1 + 2 * ( -3 + 4 )の解析結果は、
+     *
+     * [1, +, 2, *, (, -3, +, 4, )]
+     * </pre>
+     *
+     * @param calcExpression 計算式文字列
+     * @return 解析後のすべて計算式元素のリスト
+     */
+    private List<String> parseCalcExpression(String calcExpression) {
+
+        LOGGER.debug("before parse:{}", calcExpression);
+
+        List<String> calcElements = new ArrayList<>();
+        List<String> opList = Arrays.stream(Operator.values()).map(Operator::getOperator).collect(
+                Collectors.toList());
+
+        String parseStr = calcExpression.trim();
+        int idxPointer = 0;
+        for (int i = 0; i < parseStr.length(); i++) {
+            String tempStr = String.valueOf(parseStr.charAt(i));
+            if (opList.contains(tempStr)) {
+                // "-"の直後は半角スペースのある場合は、引算と看做されて、半角スペースのない場合は、マイナス数字と看做される
+                if (i != 0) {
+                    String subStr = parseStr.substring(idxPointer, i).trim();
+                    if (!subStr.isEmpty()) {
+                        calcElements.add(subStr);
+                    }
+                }
+                calcElements.add(tempStr);
+                idxPointer = i + 1;
+            }
+        }
+        if (idxPointer < parseStr.length()) {
+            calcElements.add(parseStr.substring(idxPointer, parseStr.length()).trim());
+        }
+
+        // マイナス符号のある場合、マイナス符号と直後の文字列を合併する
+        LinkedList<String> calcElementsMerged = new LinkedList<>();
+        String negativeSignOfBefore = "";
+        for (String ele : calcElements) {
+            if (isNegativeSign(ele, calcElementsMerged)) {
+                negativeSignOfBefore = negativeSignOfBefore + ele;
+            } else {
+                if (!negativeSignOfBefore.isEmpty()) {
+                    calcElementsMerged.add(negativeSignOfBefore + ele);
+                    negativeSignOfBefore = "";
+                } else {
+                    calcElementsMerged.add(ele);
+                }
+            }
+        }
+        if (!negativeSignOfBefore.isEmpty()) {
+            calcElementsMerged.add(negativeSignOfBefore);
+        }
+
+        LOGGER.debug("after parse:{}", calcElementsMerged);
+
+        return calcElementsMerged;
+    }
+
+    private boolean isNegativeSign(String str, LinkedList<String> calcElements) {
+        // "-"の直前は"+"、 または"-"、 または"*"、 または"/"、 または"(" の場合、マイナス符号と看做される
+        return str.equals(Operator.SUB.getOperator()) &&
+                (calcElements.peekLast().equals(Operator.PLUS.getOperator()) ||
+                        calcElements.peekLast().equals(Operator.SUB.getOperator()) ||
+                        calcElements.peekLast().equals(Operator.MULTI.getOperator()) ||
+                        calcElements.peekLast().equals(Operator.DIV.getOperator()) ||
+                        calcElements.peekLast().equals(Operator.LEFT_PARENTHESIS.getOperator()));
     }
 }
