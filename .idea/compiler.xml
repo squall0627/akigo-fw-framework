@@ -11,9 +11,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="akigo-fw-core" />
         <module name="akigo-fw-test" />
         <module name="akigo-fw-dao" />
-        <module name="akigo-fw-core" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8" />

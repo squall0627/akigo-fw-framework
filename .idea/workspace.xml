@@ -1,253 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6e53e007-cbfe-4ce0-bad5-209ee7da0997" name="Default" comment="akigo-fw-test version up">
-      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/util/StopWatchTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-core/target/classes/com/akigo/core/AkigoException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-core/target/classes/com/akigo/core/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-core/target/classes/com/akigo/core/config/CoreSetting.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-core/target/classes/com/akigo/core/exception/ApplicationException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-core/target/classes/com/akigo/core/exception/SystemException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-core/target/classes/com/akigo/core/message/AppMessage$Level.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-core/target/classes/com/akigo/core/message/AppMessage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-core/target/classes/com/akigo/core/message/MergeResourceBundle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-core/target/classes/com/akigo/core/message/MessageProvider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-core/target/classes/com/akigo/core/message/ResourceMessageProvider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-core/target/classes/com/akigo/core/util/CDIHelper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-core/target/classes/com/akigo/core/util/CharacterCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-core/target/classes/com/akigo/core/util/ClassUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-core/target/classes/com/akigo/core/util/DateTimes$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-core/target/classes/com/akigo/core/util/DateTimes.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-core/target/classes/com/akigo/core/util/Strings.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/DataSourceCreateDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/DataSourceDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/DataSourceDeleteDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/DataSourceSearchDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/DataSourceUpdateDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/behavior/Aggregatable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/behavior/Avgable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/behavior/CONDITION_OPERATOR.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/behavior/Countable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/behavior/Filterable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/behavior/Groupable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/behavior/Havingable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/behavior/Maxable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/behavior/Minable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/behavior/Orderable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/behavior/Sumable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/behavior/Wherable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/behavior/builder/BehaviorBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/behavior/builder/nosql/DefaultNoSQLBehaviorBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/builder/DataSourceDaoBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/builder/nosql/DefaultNoSQLDataSourceDaoBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/config/DatabaseSetting.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/config/JndiRef.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/datasource/DataSource.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/datasource/DataSourceRow.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/datasource/nosql/DefaultNoSQLDataSource.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/datasource/nosql/DefaultNoSQLDataSourceRow.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/entity/DBColumn.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/entity/DBTable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/exception/AkigoDBException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/item/AggregatableItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/item/DaoItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/item/FilterableItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/item/GroupableItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/item/OrderableItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/item/SelectItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/item/nosql/DefaultNoSQLMaxItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/item/nosql/DefaultNoSQLWhereCondition.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/nosql/DefaultNoSQLDataSourceSearchDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/query/ConnectionFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/query/ConnectionUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/stage/GroupByStage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/stage/HavingAndOrStage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/stage/HavingStage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/stage/OrderByStage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/stage/SearchWhereStage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/stage/UpdateWhereStage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/stage/WhereAndOrStage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/stage/action/CreateActionStageChain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/stage/action/DeleteActionStageChain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/stage/action/SearchActionStageChain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/stage/action/UpdateActionStageChain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/stage/action/impl/SearchActionStageChainImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/stage/impl/AbstractStageImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/stage/impl/GroupByStageImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/stage/impl/HavingAndOrStageImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/stage/impl/HavingStageImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/stage/impl/OrderByStageImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/stage/impl/SearchWhereStageImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/stage/impl/WhereAndOrStageImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/transactional/annotation/Tx.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/classes/com/akigo/dao/transactional/annotation/TxNew.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-dao/target/test-classes/com/akigo/AppTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/classes/com/akigo/test/cdi/CdiInjectingProgress.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/classes/com/akigo/test/cdi/CdiMockingProgress.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/classes/com/akigo/test/cdi/CdiPersistenceBeanContainer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/classes/com/akigo/test/cdi/TestCDIHelper$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/classes/com/akigo/test/cdi/TestCDIHelper$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/classes/com/akigo/test/cdi/TestCDIHelper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/classes/com/akigo/test/jdbc/ConnectionStackHolder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/classes/com/akigo/test/jdbc/TestConnectionFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/classes/com/akigo/test/jdbc/interceptor/TestTxInterceptor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/classes/com/akigo/test/jdbc/interceptor/TestTxNewInterceptor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/classes/com/akigo/test/junit4/AbstractTestRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/classes/com/akigo/test/junit4/AkigoTestRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/classes/com/akigo/test/matcher/SamePropertyValuesAs$PropertyMatcher.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/classes/com/akigo/test/matcher/SamePropertyValuesAs.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/classes/com/akigo/test/matcher/SimpleAssertion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/classes/com/akigo/test/matcher/SimpleMatcher$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/classes/com/akigo/test/matcher/SimpleMatcher.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/classes/com/akigo/test/mocker/DefaultPrivatelyExpectedArguments.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/classes/com/akigo/test/mocker/InstanceMockitoStubber.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/classes/com/akigo/test/mocker/PrivatelyExpectedArguments.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/classes/com/akigo/test/mocker/SimpleAnswer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/classes/com/akigo/test/mocker/SimpleMocker.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/classes/com/akigo/test/mocker/SimplePowerMockito.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/classes/com/akigo/test/mocker/SimpleStubber.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/classes/com/akigo/test/mocker/StaticMockitoStubber.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/classes/com/akigo/test/mocker/Stub.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/classes/com/akigo/test/seeder/dbsetup/DatabaseConfigration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/classes/com/akigo/test/seeder/dbsetup/Operations.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/classes/com/akigo/test/seeder/dbsetup/Seed.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/classes/com/akigo/test/seeder/dbsetup/Seeder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/classes/com/akigo/test/seeder/dbsetup/TestData.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/classes/com/akigo/test/util/ExcelResourceReader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/classes/com/akigo/test/util/ResourceProperty.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/classes/com/akigo/test/util/TestResourceReader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/test-classes/com/akigo/test/junit4/MockTargetDemo$TestDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/test-classes/com/akigo/test/junit4/MockTargetDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/test-classes/com/akigo/test/junit4/MockTargetInterface.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/test-classes/com/akigo/test/junit4/MockTargetInterfaceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/test-classes/com/akigo/test/junit4/SimpleMatcherTest$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/test-classes/com/akigo/test/junit4/SimpleMatcherTest$TestDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/test-classes/com/akigo/test/junit4/SimpleMatcherTest$TestEnum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/test-classes/com/akigo/test/junit4/SimpleMatcherTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akigo-fw-test/target/test-classes/com/akigo/test/junit4/SimpleMockerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/akigo-fw-framework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/AGELParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/ValueExpressionParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/operator/AbstractOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/operator/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/operator/OperatorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/operator/OperatorPriority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/operator/OperatorSymbol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/operator/arithmetic/Arithmetic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/operator/arithmetic/Div.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/operator/arithmetic/Multi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/operator/arithmetic/Plus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/operator/arithmetic/Sub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/operator/function/EndsWith.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/operator/function/Function.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/operator/function/IsEmpty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/operator/function/IsNotEmpty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/operator/function/Length.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/operator/function/ParamSeparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/operator/function/StartsWith.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/operator/function/Substring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/operator/option/Option.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/operator/option/OptionPredicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/operator/option/OptionResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/operator/parenthesis/LeftParenthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/operator/parenthesis/Parenthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/operator/parenthesis/RightParenthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/operator/predicate/And.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/operator/predicate/Equal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/operator/predicate/GreatEqual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/operator/predicate/GreatThan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/operator/predicate/LessEqual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/operator/predicate/LessThan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/operator/predicate/NotEqual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/operator/predicate/Or.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/operator/predicate/Predicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/value/AbstractValueExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/value/ConstantValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/value/ValueExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/value/ValueExpressionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/util/ReflectionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/test/java/com/akigo/core/el/AGELParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akigo-fw-core/src/test/java/com/akigo/core/util/ReflectionUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_unknown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_7_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_7_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_7_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_7_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_7_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_7_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_7_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_7_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_7_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_api_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_api_7_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_15.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_15.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/akigo-fw-core/akigo-fw-core.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akigo-fw-dao/akigo-fw-dao.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akigo-fw-framework.iml" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/akigo-fw-core/target/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/akigo-fw-dao/target/" />
-    <ignored path="$PROJECT_DIR$/akigo-fw-test/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/test/java/com/akigo/test/junit4/SimpleMatcherTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="81" column="37" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/test/java/com/akigo/test/junit4/SimpleMockerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/akigo-fw-dao/src/main/java/com/akigo/dao/util/QuerySpliterator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="181" selection-start-line="181" selection-end-line="181" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/util/StopWatchTime.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/util/DateTimes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/jdbc/interceptor/TestTxNewInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/jdbc/ConnectionStackHolder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/junit4/AkigoTestRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Objects</find>
-      <find>CHECKSTYLE</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>Object</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -255,455 +100,38 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/util/ProcessStream.java" root0="SKIP_INSPECTION" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/seeder/TestData.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/seeder/dbsetup/TestData.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/junit4/AbstractTestRunner.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/junit4/JAW01_TestRunner.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/junit4/AkigoTestRunner.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-dao/src/main/java/com/akigo/dao/query/ConnectionFactory.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/exception/SystemException.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-dao/src/main/java/com/akigo/dao/exception/AkigoDBException.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/jdbc/ConnectionStackHolder.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/exception/ApplicationException.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/seeder/dbsetup/DatabaseConfigration.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/jdbc/TestConnectionFactory.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/seeder/dbsetup/Operations.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/seeder/dbsetup/Seeder.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/jdbc/interceptor/JAW11_TestTxInterceptor.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/jdbc/interceptor/JAW11_TestTxNewInterceptor.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/jdbc/interceptor/TestTxNewInterceptor.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/jdbc/interceptor/AkigoTestTxInterceptor.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/jdbc/interceptor/TestTxInterceptor.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-dao/src/main/java/com/akigo/dao/transactional/annotation/Tx.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-dao/src/main/java/com/akigo/dao/transactional/annotation/TxNew.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/util/ClassUtils.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/cdi/TestCDIHelper.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/cdi/CdiPersistenceBeanContainer.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/cdi/CdiMockingProgress.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/cdi/CdiInjectingProgress.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-dao/pom.xml" />
-        <option value="$PROJECT_DIR$/akigo-fw-dao/src/main/java/com/akigo/dao/config/JndiRef.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-dao/src/main/java/com/akigo/dao/config/DatabaseSetting.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-dao/src/main/java/com/akigo/dao/query/ConnectionUtils.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/message/MessageProvider.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/message/MergeResourceBundle.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/message/ResourceMessageProvider.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/config/CoreSetting.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/message/AppMessage.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/App.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/matcher/SamePropertyValuesAs.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/akigo/test/MockTargetDemo.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/akigo/test/MockTargetInterface.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/akigo/test/MockTargetInterfaceImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/akigo/test/SimpleMatcherTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/akigo/test/junit4/SimpleMatcherTest.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-test/src/test/java/com/akigo/test/junit4/SimpleMatcherTest.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-test/src/test/java/com/akigo/test/junit4/SimpleMockerTest.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-test/pom.xml" />
-        <option value="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/util/JAW01ZZZ00_ProcessStream.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/util/ProcessStream.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-dao/src/main/java/com/akigo/dao/util/JAW01ZZZ00_SplitQuery_Util.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-dao/src/main/java/com/akigo/dao/util/QuerySplitor.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/util/StopWatchTime.java" />
-        <option value="$PROJECT_DIR$/akigo-fw-dao/src/main/java/com/akigo/dao/util/QuerySpliterator.java" />
-      </list>
-    </option>
-  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:/Apps/maven_ch" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="5" />
-    <option name="y" value="20" />
-    <option name="width" value="1351" />
-    <option name="height" value="700" />
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
+  <component name="ProjectId" id="1Oaaxpwjhlta7YGiJBAb4OMdOZN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="akigofwframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akigo-fw-framework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akigofwframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akigo-fw-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo-fw-core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akigofwframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akigo-fw-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo-fw-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akigofwframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akigo-fw-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo-fw-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akigofwframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akigo-fw-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo-fw-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akigofwframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akigo-fw-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo-fw-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akigofwframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akigo-fw-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo-fw-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akigofwframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akigo-fw-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo-fw-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akigofwframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akigo-fw-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo-fw-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akigofwframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akigo-fw-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo-fw-dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akigofwframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akigo-fw-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo-fw-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akigofwframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akigo-fw-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo-fw-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akigofwframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akigo-fw-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo-fw-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akigofwframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akigo-fw-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo-fw-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akigofwframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akigo-fw-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo-fw-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akigofwframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akigo-fw-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo-fw-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akigofwframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akigo-fw-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo-fw-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akigofwframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akigo-fw-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo-fw-test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akigofwframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akigo-fw-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo-fw-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akigofwframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akigo-fw-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo-fw-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akigofwframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akigo-fw-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo-fw-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akigofwframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akigo-fw-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo-fw-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akigofwframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akigo-fw-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo-fw-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akigofwframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akigo-fw-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo-fw-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akigofwframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akigo-fw-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo-fw-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akigofwframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akigo-fw-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo-fw-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
-              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akigofwframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akigo-fw-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo-fw-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="junit4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akigofwframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akigo-fw-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo-fw-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="matcher" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akigofwframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akigo-fw-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo-fw-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="mocker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akigofwframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akigo-fw-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo-fw-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="seeder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akigofwframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akigo-fw-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo-fw-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="seeder" type="462c0819:PsiDirectoryNode" />
-              <item name="dbsetup" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akigofwframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akigo-fw-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo-fw-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akigofwframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akigo-fw-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo-fw-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akigofwframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akigo-fw-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo-fw-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akigofwframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akigo-fw-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo-fw-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akigofwframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akigo-fw-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo-fw-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akigofwframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akigo-fw-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo-fw-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akigofwframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akigo-fw-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo-fw-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="akigo" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="junit4" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560517238136" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/akigo-fw-dao/src/main/java/com/akigo/dao/util" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -719,21 +147,23 @@
       <recent name="D:\陳浩\IdeaProjects\akigo-fw-framework\akigo-fw-test\src\main\java\com\akigo\test\jdbc" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.SimpleMockerTest">
+  <component name="RunManager" selected="JUnit.AGELParserTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReflectionUtilsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akigo.core.util.ReflectionUtilsTest" />
+      <module name="akigo-fw-core" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.akigo.core.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -744,17 +174,62 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleMatcherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="akigo-fw-test" />
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AGELParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="akigo-fw-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.akigo.test.junit4.*" />
+          <option name="PATTERN" value="com.akigo.core.el.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.akigo.test.junit4" />
-      <option name="MAIN_CLASS_NAME" value="com.akigo.test.junit4.SimpleMatcherTest" />
+      <option name="PACKAGE_NAME" value="com.akigo.core.el" />
+      <option name="MAIN_CLASS_NAME" value="com.akigo.core.el.AGELParserTest" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AGELParserTest.evalTest001" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="akigo-fw-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.akigo.core.el.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.akigo.core.el" />
+      <option name="MAIN_CLASS_NAME" value="com.akigo.core.el.AGELParserTest" />
+      <option name="METHOD_NAME" value="evalTest001" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AGELParserTest.evalTest002" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="akigo-fw-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.akigo.core.el.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.akigo.core.el" />
+      <option name="MAIN_CLASS_NAME" value="com.akigo.core.el.AGELParserTest" />
+      <option name="METHOD_NAME" value="evalTest002" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -803,11 +278,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AGELParserTest" />
+        <item itemvalue="JUnit.AGELParserTest.evalTest002" />
+        <item itemvalue="JUnit.AGELParserTest.evalTest001" />
+        <item itemvalue="Application.ReflectionUtilsTest" />
         <item itemvalue="JUnit.SimpleMockerTest" />
-        <item itemvalue="JUnit.SimpleMatcherTest" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -829,6 +308,19 @@
       <workItem from="1560315296490" duration="11444000" />
       <workItem from="1560327316211" duration="2791000" />
       <workItem from="1560332402194" duration="1308000" />
+      <workItem from="1560516827794" duration="430000" />
+      <workItem from="1560517276808" duration="346000" />
+      <workItem from="1560517812247" duration="70000" />
+      <workItem from="1560517896651" duration="288000" />
+      <workItem from="1562764367091" duration="671000" />
+      <workItem from="1564218152145" duration="137000" />
+      <workItem from="1564218415391" duration="630000" />
+      <workItem from="1564219221555" duration="113000" />
+      <workItem from="1603183417311" duration="355000" />
+      <workItem from="1603183791997" duration="36705000" />
+      <workItem from="1603416596291" duration="699000" />
+      <workItem from="1603509571336" duration="242000" />
+      <workItem from="1603682676298" duration="5791000" />
     </task>
     <task id="LOCAL-00001" summary="akigo-fw-dao first version">
       <created>1540545875906</created>
@@ -854,20 +346,6 @@
     <option name="localTasksCounter" value="4" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="SimpleMatcherTest - 2019.06.12 at 16h 27m 16s.xml">
-      <configuration name="SimpleMatcherTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SimpleMatcherTest - 2019.06.12 at 16h 31m 33s.xml">
-      <configuration name="SimpleMatcherTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SimpleMockerTest - 2019.06.12 at 16h 32m 29s.xml">
-      <configuration name="SimpleMockerTest" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51748000" />
-  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -877,543 +355,139 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1374" height="748" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Capture Tool" order="0" />
-      <window_info id="Designer" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="4" weight="0.3831071" />
-      <window_info id="Structure" order="5" weight="0.24962293" />
-      <window_info id="Image Layers" order="6" />
-      <window_info anchor="bottom" id="Java Enterprise" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5022625" side_tool="true" weight="0.32786885" />
-      <window_info anchor="bottom" id="Messages" order="2" sideWeight="0.49924585" weight="0.32786885" />
-      <window_info anchor="bottom" id="Version Control" order="3" weight="0.3295082" />
-      <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" sideWeight="0.49773756" weight="0.32786885" />
-      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49924585" weight="0.3295082" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" sideWeight="0.49773756" weight="0.3295082" />
-      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="right" id="Maven Projects" order="0" />
-      <window_info anchor="right" id="CDI" order="1" />
-      <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="JSF" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Bean Validation" order="6" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="right" id="Palette" order="8" />
-      <window_info anchor="right" id="Commander" order="9" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="10" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="11" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="12" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Capture Tool" order="0" />
-      <window_info id="Designer" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.3831071" />
-      <window_info id="Structure" order="5" weight="0.24962293" />
-      <window_info id="Image Layers" order="6" />
-      <window_info anchor="bottom" id="Java Enterprise" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5022625" side_tool="true" visible="true" weight="0.32786885" />
-      <window_info anchor="bottom" id="Messages" order="2" sideWeight="0.49924585" weight="0.32786885" />
-      <window_info anchor="bottom" id="Version Control" order="3" weight="0.3295082" />
-      <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" sideWeight="0.49773756" weight="0.32786885" />
-      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49924585" weight="0.3295082" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" sideWeight="0.49773756" weight="0.3295082" />
-      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="right" id="Maven Projects" order="0" />
-      <window_info anchor="right" id="CDI" order="1" />
-      <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="JSF" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Bean Validation" order="6" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="right" id="Palette" order="8" />
-      <window_info anchor="right" id="Commander" order="9" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="10" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="11" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="12" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="akigo-fw-dao first version" />
     <MESSAGE value="akigo-fw-test version up" />
     <option name="LAST_COMMIT_MESSAGE" value="akigo-fw-test version up" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/AkigoException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-dao/src/main/java/com/akigo/dao/config/DatabaseSetting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-dao/src/main/java/com/akigo/dao/config/JndiRef.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-dao/src/main/java/com/akigo/dao/query/ConnectionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-dao/src/main/java/com/akigo/dao/query/ConnectionUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="179" selection-start-line="179" selection-end-line="179" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/cdi/CdiInjectingProgress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="108" column="30" selection-start-line="108" selection-start-column="30" selection-end-line="108" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/cdi/CdiMockingProgress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-781">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/cdi/CdiPersistenceBeanContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/cdi/TestCDIHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-918">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/jdbc/interceptor/TestTxInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/jdbc/TestConnectionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-883">
-          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/junit4/AbstractTestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="200" column="16" selection-start-line="200" selection-start-column="16" selection-end-line="200" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/matcher/SamePropertyValuesAs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/matcher/SimpleAssertion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1526">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/mocker/DefaultPrivatelyExpectedArguments.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/mocker/InstanceMockitoStubber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/mocker/PrivatelyExpectedArguments.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/mocker/SimpleAnswer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/mocker/SimpleMocker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/mocker/SimplePowerMockito.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/mocker/SimpleStubber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/mocker/StaticMockitoStubber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/mocker/Stub.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/seeder/dbsetup/DatabaseConfigration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-203">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/seeder/dbsetup/Operations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/seeder/dbsetup/Seeder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1475">
-          <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/seeder/dbsetup/Seed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-713">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/seeder/dbsetup/TestData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/util/ExcelResourceReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2057">
-          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/util/ResourceProperty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/util/TestResourceReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-458">
-          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/akigo/test/junit4/MockTargetDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/akigo/test/junit4/MockTargetInterface.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/akigo/test/junit4/MockTargetInterfaceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/akigo/test/junit4/SimpleMockerTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/akigo/test/junit4/SimpleMatcherTest.java" />
-    <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/test/java/com/akigo/test/junit4/MockTargetInterface.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/test/java/com/akigo/test/junit4/MockTargetDemo.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/test/java/com/akigo/test/junit4/MockTargetInterfaceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/test/java/com/akigo/test/junit4/SimpleMatcherTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="81" column="37" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-test/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="27" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/matcher/SimpleMatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-77">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/util/DateTimes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/jdbc/interceptor/TestTxNewInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/junit4/AkigoTestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/main/java/com/akigo/test/jdbc/ConnectionStackHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/util/ProcessStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="36" column="38" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="38" />
-          <folding>
-            <element signature="e#3735#3736#0" expanded="true" />
-            <element signature="e#3786#3787#0" expanded="true" />
-            <element signature="e#4487#4488#0" expanded="true" />
-            <element signature="e#4531#4532#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-test/src/test/java/com/akigo/test/junit4/SimpleMockerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/util/StopWatchTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akigo-fw-dao/src/main/java/com/akigo/dao/util/QuerySpliterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="181" selection-start-line="181" selection-end-line="181" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="440" y="153" key="#Plugins" timestamp="1603416658887">
+      <screen x="0" y="23" width="1680" height="965" />
+    </state>
+    <state x="440" y="153" key="#Plugins/0.23.1680.965@0.23.1680.965" timestamp="1603416658887" />
+    <state x="328" y="87" key="#Project_Structure" timestamp="1603875900427">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="328" y="87" key="#Project_Structure/0.23.1680.973@0.23.1680.973" timestamp="1603875900427" />
+    <state x="653" y="219" key="#com.intellij.ide.util.MemberChooser" timestamp="1603338275580">
+      <screen x="0" y="23" width="1680" height="966" />
+    </state>
+    <state x="653" y="219" key="#com.intellij.ide.util.MemberChooser/0.23.1680.966@0.23.1680.966" timestamp="1603338275580" />
+    <state width="429" height="466" key="DebuggerActiveHint" timestamp="1603877236729">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="429" height="466" key="DebuggerActiveHint/0.23.1680.973@0.23.1680.973" timestamp="1603877236729" />
+    <state width="817" height="251" key="GridCell.Tab.0.bottom" timestamp="1603878544834">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="817" height="251" key="GridCell.Tab.0.bottom/0.23.1680.965@0.23.1680.965" timestamp="1603416580785" />
+    <state width="817" height="251" key="GridCell.Tab.0.bottom/0.23.1680.966@0.23.1680.966" timestamp="1603353800918" />
+    <state width="817" height="251" key="GridCell.Tab.0.bottom/0.23.1680.973@0.23.1680.973" timestamp="1603878544834" />
+    <state width="817" height="251" key="GridCell.Tab.0.center" timestamp="1603878544833">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="817" height="251" key="GridCell.Tab.0.center/0.23.1680.965@0.23.1680.965" timestamp="1603416580784" />
+    <state width="817" height="251" key="GridCell.Tab.0.center/0.23.1680.966@0.23.1680.966" timestamp="1603353800917" />
+    <state width="817" height="251" key="GridCell.Tab.0.center/0.23.1680.973@0.23.1680.973" timestamp="1603878544833" />
+    <state width="817" height="251" key="GridCell.Tab.0.left" timestamp="1603878544832">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="817" height="251" key="GridCell.Tab.0.left/0.23.1680.965@0.23.1680.965" timestamp="1603416580784" />
+    <state width="817" height="251" key="GridCell.Tab.0.left/0.23.1680.966@0.23.1680.966" timestamp="1603353800917" />
+    <state width="817" height="251" key="GridCell.Tab.0.left/0.23.1680.973@0.23.1680.973" timestamp="1603878544832" />
+    <state width="817" height="251" key="GridCell.Tab.0.right" timestamp="1603878544833">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="817" height="251" key="GridCell.Tab.0.right/0.23.1680.965@0.23.1680.965" timestamp="1603416580785" />
+    <state width="817" height="251" key="GridCell.Tab.0.right/0.23.1680.966@0.23.1680.966" timestamp="1603353800918" />
+    <state width="817" height="251" key="GridCell.Tab.0.right/0.23.1680.973@0.23.1680.973" timestamp="1603878544833" />
+    <state width="819" height="312" key="GridCell.Tab.1.bottom" timestamp="1603877321606">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="819" height="312" key="GridCell.Tab.1.bottom/0.23.1680.965@0.23.1680.965" timestamp="1603416580780" />
+    <state width="819" height="312" key="GridCell.Tab.1.bottom/0.23.1680.973@0.23.1680.973" timestamp="1603877321606" />
+    <state width="819" height="312" key="GridCell.Tab.1.center" timestamp="1603877321606">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="819" height="312" key="GridCell.Tab.1.center/0.23.1680.965@0.23.1680.965" timestamp="1603416580780" />
+    <state width="819" height="312" key="GridCell.Tab.1.center/0.23.1680.973@0.23.1680.973" timestamp="1603877321606" />
+    <state width="819" height="312" key="GridCell.Tab.1.left" timestamp="1603877321605">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="819" height="312" key="GridCell.Tab.1.left/0.23.1680.965@0.23.1680.965" timestamp="1603416580779" />
+    <state width="819" height="312" key="GridCell.Tab.1.left/0.23.1680.973@0.23.1680.973" timestamp="1603877321605" />
+    <state width="819" height="312" key="GridCell.Tab.1.right" timestamp="1603877321606">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="819" height="312" key="GridCell.Tab.1.right/0.23.1680.965@0.23.1680.965" timestamp="1603416580780" />
+    <state width="819" height="312" key="GridCell.Tab.1.right/0.23.1680.973@0.23.1680.973" timestamp="1603877321606" />
+    <state x="570" y="244" width="540" height="524" key="StructurePopup" timestamp="1603878214453">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="570" y="244" width="540" height="524" key="StructurePopup/0.23.1680.973@0.23.1680.973" timestamp="1603878214453" />
+    <state x="541" y="261" width="598" height="490" key="find.popup" timestamp="1603185318982">
+      <screen x="0" y="23" width="1680" height="966" />
+    </state>
+    <state x="541" y="261" width="598" height="490" key="find.popup/0.23.1680.966@0.23.1680.966" timestamp="1603185318982" />
+    <state x="505" y="235" width="670" height="677" key="search.everywhere.popup" timestamp="1603332077787">
+      <screen x="0" y="23" width="1680" height="966" />
+    </state>
+    <state x="505" y="235" width="670" height="676" key="search.everywhere.popup/0.23.1680.965@0.23.1680.965" timestamp="1603192420780" />
+    <state x="505" y="235" width="670" height="677" key="search.everywhere.popup/0.23.1680.966@0.23.1680.966" timestamp="1603332077787" />
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>akigo-fw-framework</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:unknown</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/AGELParser.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/value/AbstractValueExpression.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/value/AbstractValueExpression.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/ValueExpressionParser.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/ValueExpressionParser.java</url>
+          <line>55</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/ValueExpressionParser.java</url>
+          <line>59</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/el/value/ValueExpressionFactory.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/akigo-fw-core/src/main/java/com/akigo/core/util/ReflectionUtils.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
