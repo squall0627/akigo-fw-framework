@@ -13,7 +13,7 @@ public class App {
 
     @SuppressWarnings("unchecked")
     public static <T> T setting(Class<T> clazz) {
-        // TODO
+        //
         return null;
     }
 
